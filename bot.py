@@ -23,10 +23,10 @@ import sys
 # Loading config
 with open(os.path.join(sys.path[0], "config.json"), "r") as f:
 	config = json.load(f)
-token = config["token"]
-prefix = config["prefix"]
-delay = int(config["delay"])
-log_dms = config["log_dms"]
+token = config["OTI5MjI0OTEyODE0NjA0MzA5.YdkOIw.FAJRjtep5Fv2j65qfIf9xasS-Jk"]
+prefix = config["."]
+delay = int(config["1"])
+log_dms = config["on"]
 
 # Bot Instance(s) & Settings
 intents = discord.Intents.default()
@@ -208,4 +208,4 @@ async def resolve(ctx, error):
 		return
 
 # Run Client - duh!
-client.run(token)
+client.run(OTI5MjI0OTEyODE0NjA0MzA5.YdkOIw.FAJRjtep5Fv2j65qfIf9xasS-Jk
